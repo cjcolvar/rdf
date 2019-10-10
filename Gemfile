@@ -31,4 +31,5 @@ group :test do
   gem 'fasterer'
   gem 'simplecov',  require: false, platform: :mri
   gem 'coveralls',  require: false, platform: :mri
+  gem 'rspec_junit_formatter', '< 0.4'
 end
